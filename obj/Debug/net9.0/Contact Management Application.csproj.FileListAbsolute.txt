@@ -1,0 +1,28 @@
+C:\Users\molas\Desktop\C-Language\Contact Management Application\bin\Debug\net9.0\Contact Management Application.exe
+C:\Users\molas\Desktop\C-Language\Contact Management Application\bin\Debug\net9.0\Contact Management Application.deps.json
+C:\Users\molas\Desktop\C-Language\Contact Management Application\bin\Debug\net9.0\Contact Management Application.runtimeconfig.json
+C:\Users\molas\Desktop\C-Language\Contact Management Application\bin\Debug\net9.0\Contact Management Application.dll
+C:\Users\molas\Desktop\C-Language\Contact Management Application\bin\Debug\net9.0\Contact Management Application.pdb
+C:\Users\molas\Desktop\C-Language\Contact Management Application\obj\Debug\net9.0\Contact Management Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\molas\Desktop\C-Language\Contact Management Application\obj\Debug\net9.0\Contact Management Application.AssemblyInfoInputs.cache
+C:\Users\molas\Desktop\C-Language\Contact Management Application\obj\Debug\net9.0\Contact Management Application.AssemblyInfo.cs
+C:\Users\molas\Desktop\C-Language\Contact Management Application\obj\Debug\net9.0\Contact Management Application.csproj.CoreCompileInputs.cache
+C:\Users\molas\Desktop\C-Language\Contact Management Application\obj\Debug\net9.0\Contact Management Application.dll
+C:\Users\molas\Desktop\C-Language\Contact Management Application\obj\Debug\net9.0\refint\Contact Management Application.dll
+C:\Users\molas\Desktop\C-Language\Contact Management Application\obj\Debug\net9.0\Contact Management Application.pdb
+C:\Users\molas\Desktop\C-Language\Contact Management Application\obj\Debug\net9.0\Contact Management Application.genruntimeconfig.cache
+C:\Users\molas\Desktop\C-Language\Contact Management Application\obj\Debug\net9.0\ref\Contact Management Application.dll
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\bin\Debug\net9.0\Contact Management Application.exe
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\bin\Debug\net9.0\Contact Management Application.deps.json
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\bin\Debug\net9.0\Contact Management Application.runtimeconfig.json
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\bin\Debug\net9.0\Contact Management Application.dll
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\bin\Debug\net9.0\Contact Management Application.pdb
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\obj\Debug\net9.0\Contact Management Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\obj\Debug\net9.0\Contact Management Application.AssemblyInfoInputs.cache
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\obj\Debug\net9.0\Contact Management Application.AssemblyInfo.cs
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\obj\Debug\net9.0\Contact Management Application.csproj.CoreCompileInputs.cache
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\obj\Debug\net9.0\Contact Management Application.dll
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\obj\Debug\net9.0\refint\Contact Management Application.dll
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\obj\Debug\net9.0\Contact Management Application.pdb
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\obj\Debug\net9.0\Contact Management Application.genruntimeconfig.cache
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-app\obj\Debug\net9.0\ref\Contact Management Application.dll
