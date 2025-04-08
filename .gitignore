@@ -1,0 +1,11 @@
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore other temporary files
+*.user
+*.lock
+*.log
+*.tmp
+*.bak
+*.swp
