@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,43 +13,51 @@
             background-color: #f4f4f4;
             color: #333;
         }
+
         header {
             background-color: #333;
             color: #fff;
             padding: 1em 0;
             text-align: center;
         }
+
         nav ul {
             list-style: none;
             padding: 0;
             margin: 0;
             text-align: center;
         }
+
         nav ul li {
             display: inline;
             margin: 0 1em;
         }
+
         nav ul li a {
             color: #fff;
             text-decoration: none;
         }
-       .container {
+
+        .container {
             width: 80%;
             margin: 20px auto;
             background-color: #fff;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-       .section-title {
+
+        .section-title {
             border-bottom: 2px solid #333;
             padding-bottom: 0.5em;
             margin-bottom: 1em;
         }
-       .project {
+
+        .project {
             margin-bottom: 1.5em;
             border: 1px solid #ddd;
             padding: 15px;
         }
+
         footer {
             text-align: center;
             padding: 1em 0;
@@ -58,8 +67,22 @@
             bottom: 0;
             width: 100%;
         }
+
+        #about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 0;
+            margin-bottom: 0;
+        }
+        @media (max-width: 600px) {
+            footer {
+                position: static;
+                padding: 1em;
+            }
+        }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Welcome to My Portfolio</h1>
@@ -69,40 +92,53 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
+            <img src="my-picture.jpg" alt="Profile picture of Oluwanisola Habeeb Olawale">
+            <img src="my-picture.jpg" alt="Profile picture of Oluwanisola Habeeb Olawale" />
 
     <div class="container">
-        <section id="about">
-            <h2 class="section-title">Meet Me</h2>
-            <img src="my-picture.jpg" alt ="profile picture" style ="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 1em;">
-            <p>My name is Oluwanisola Habeeb Olawale. I'm an aspiring software developer currently seeking entry level role/internship in order to gain confidence, skill and practical experience. i have basic sytanx knowledge of html and css (I will be looking to improve that in the future) but i am currently focusing on my C-Sharp skill.</p>
+        <section id="about" style="display: flex; align-items: center; gap: 20px;">
+            <img src="my-picture.jpg" alt="Profile picture of Oluwanisola Habeeb Olawale">
+            <div>
+                <h2 class="section-title">Meet Me</h2>
+                <p>My name is Oluwanisola Habeeb Olawale. I'm an aspiring software developer currently seeking an
+                    entry-level role or internship to gain confidence, skills, and practical experience. I have basic
+                    syntax knowledge of HTML, CSS, C and C#. I'm currently taking Microsft Full-stack Developer course
+                    on Microsoft Coursera.</p>
+            </div>
         </section>
 
         <section id="projects">
             <h2 class="section-title">Projects</h2>
             <div class="project">
                 <h3>Contact Management</h3>
-                <p>A basic contact management program using 2d array. user can add, view, modify, search through and delete contact</p>
-                <a href="https://github.com/Habeetech/Habeetech.github.io/tree/master/Contact-management-program">View Project</a>
-            </div>
+                <p>A basic contact management program written with C# language using a 2D array. Users can add, view,
+                <a href="https://github.com/Habeetech/Habeetech.github.io/tree/master/Contact-management-program">View Contact Management Project</a>
+                    Project</a>
+                    Automated Till Program</a>
             <div class="project">
                 <h3>Automated Till Program</h3>
-                <p>An automated till program that take orders from user, process it, give change if necessary and keep up to five records of transactions made</p>
-                <a href="https://github.com/Habeetech/Habeetech.github.io/tree/master/Automated-till-program">View Project</a>
+                <p>An automated till program written with C# language that takes orders from users, processes them,
+                <a href="https://github.com/Habeetech/Habeetech.github.io/tree/master/Automated-till-program">View Automated Till Program</a>
+                    Project</a>
             </div>
-            </section>
+        </section>
 
         <section id="contact">
             <h2 class="section-title">Contact</h2>
             <p>You can reach out to me through my email for general recommendations, collaborations etc.</p>
-            <p>Email: o.h.olawaleofficial@gmail.com</p>
-            <p><a href="https://github.com/Habeetech" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/habeeb-oluwanisola-178029359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></p>
+            <p>Email: <a href="mailto:o.h.olawaleofficial@gmail.com">o.h.olawaleofficial@gmail.com</a></p>
+            <p><a href="https://github.com/Habeetech" target="_blank">GitHub</a> | <a
+                    href="https://www.linkedin.com/in/habeeb-oluwanisola-178029359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank">LinkedIn</a></p>
         </section>
     </div>
 
     <footer>
-        <p>&copy; 2025 Habeetech. All rights reserved.</p>
+        <p>&copy; <span id="current-year"></span> Habeetech. All rights reserved.</p>
+        <script>
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
     </footer>
 </body>
+
 </html>
