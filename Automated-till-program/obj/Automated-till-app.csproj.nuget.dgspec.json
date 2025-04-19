@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\molas\\Desktop\\C-sharp-portfolio\\automated-till-program\\Automated-till-app.csproj": {}
+    "C:\\Users\\molas\\Desktop\\C-sharp-portfolio\\Automated-till-program\\Automated-till-app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\molas\\Desktop\\C-sharp-portfolio\\automated-till-program\\Automated-till-app.csproj": {
+    "C:\\Users\\molas\\Desktop\\C-sharp-portfolio\\Automated-till-program\\Automated-till-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\molas\\Desktop\\C-sharp-portfolio\\automated-till-program\\Automated-till-app.csproj",
+        "projectUniqueName": "C:\\Users\\molas\\Desktop\\C-sharp-portfolio\\Automated-till-program\\Automated-till-app.csproj",
         "projectName": "Automated-till-app",
-        "projectPath": "C:\\Users\\molas\\Desktop\\C-sharp-portfolio\\automated-till-program\\Automated-till-app.csproj",
+        "projectPath": "C:\\Users\\molas\\Desktop\\C-sharp-portfolio\\Automated-till-program\\Automated-till-app.csproj",
         "packagesPath": "C:\\Users\\molas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\molas\\Desktop\\C-sharp-portfolio\\automated-till-program\\obj\\",
+        "outputPath": "C:\\Users\\molas\\Desktop\\C-sharp-portfolio\\Automated-till-program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\molas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

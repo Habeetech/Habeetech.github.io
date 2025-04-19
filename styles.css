@@ -1,9 +1,11 @@
-
-* {
+body,
+header,
+nav ul,
+section#about {
     display: flex;
     margin: 0;
     padding: 0;
-    
+    flex-direction: row;
 }
 
 body {
@@ -19,8 +21,8 @@ header {
 nav ul {
     background-color: #333;
     color: #fff;
-    border-top: 5vw;
-    border-bottom: 5vw;
+    border-top: 10px;
+    border-bottom: 10px;
     border-color: #fff;
     list-style: none;
     flex-direction: column;
@@ -28,8 +30,10 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5em 0;
 }
 
 nav ul li a {
@@ -37,55 +41,56 @@ nav ul li a {
     text-decoration: none;
 }
 
-.container {
-    width: 100%;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 60px; 
-    color: #333;
-}
+    .container {
+        width: 100%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-.section-title {
-    border-bottom: 2px solid #333;
-    padding-bottom: 0.5em;
-    margin-bottom: 1em;
-}
-
-p {
-    color: #333
-}
-
-.project {
-    margin-bottom: 1.5em;
-    border: 1px solid #ddd;
-    padding: 15px;
-}
-
-footer {
-    text-align: center;
-    padding: 1em 0;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-section #about
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-#about img {
-    width: 100%;
-    height: auto;
-    border-radius: 0;
-    margin-bottom: 0;
-}
-@media (max-width: 600px) {
-    footer {
-        position: static;
-        padding: 1em;
+        background-color: #fff;
+        color: #333;
+        padding: 20px;
+        margin-bottom: calc(60px + 1em);
     }
-}
+
+    .section-title {
+        border-bottom: 2px solid #333;
+        padding-bottom: 0.5em;
+        margin-bottom: 1em;
+    }
+
+    p {
+        color: #333;
+    }
+
+    .project {
+        margin-bottom: 1.5em;
+        border: 1px solid #ddd;
+        padding: 15px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1em 0;
+        background-color: #333;
+        color: #fff;
+        position: fixed;
+    }
+
+    #about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #about img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+
+
+    @media (max-width: 600px) {
+        footer {
+            position: static;
+            padding: 1em;
+        }
+    }
