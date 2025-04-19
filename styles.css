@@ -1,45 +1,22 @@
-*
-{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+header {
+    margin-bottom: 20px; /* Adds space below the header */
 }
-header, footer
-{
-    text-align: center;
+
+nav {
+    margin-bottom: 20px; /* Adds space below the navigation bar */
 }
-#about img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 0;
-    margin-bottom: 0;
+
+#about {
+    margin-top: 20px; /* Adds space above the about section */
+    margin-bottom: 20px; /* Adds space below the about section */
 }
-body {
-    background-color: #333;
-    color: #fff;
+
+#projects {
+    margin-top: 20px; /* Adds space above the projects section */
+    margin-bottom: 20px; /* Adds space below the projects section */
 }
-nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-    border-top: 2px solid #45c4e4;
-    border-bottom: 2px solid #45c4e4;
-    background-color: #fff;
-    color: #333;
-}
-nav ul li 
-{
-    text-decoration: none;
-}
-.about-info
-{
-display:grid;
-grid-template-columns: 1fr 1fr;
-}
-@media (max-width: 768px)
-{
-    .about-info{
-        grid-template-columns: 1fr;
-    }
+
+#contact {
+    margin-top: 20px; /* Adds space above the contact section */
+    margin-bottom: 20px; /* Adds space below the contact section */
 }
