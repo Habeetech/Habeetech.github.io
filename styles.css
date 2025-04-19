@@ -1,22 +1,177 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
 header {
-    margin-bottom: 20px; /* Adds space below the header */
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #45c4e4;
 }
 
-nav {
-    margin-bottom: 20px; /* Adds space below the navigation bar */
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
+/* Navigation Bar */
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #fff;
+    border-top: 2px solid #45c4e4;
+    border-bottom: 2px solid #45c4e4;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #45c4e4;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 20px 0;
+    color: #45c4e4;
+}
+
+/* About Section */
 #about {
-    margin-top: 20px; /* Adds space above the about section */
-    margin-bottom: 20px; /* Adds space below the about section */
+    padding: 20px;
+    text-align: center;
 }
 
+.about-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-info img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.about-info p {
+    text-align: left;
+    font-size: 1rem;
+}
+
+/* Projects Section */
 #projects {
-    margin-top: 20px; /* Adds space above the projects section */
-    margin-bottom: 20px; /* Adds space below the projects section */
+    padding: 20px;
+    background-color: #444;
 }
 
+.project {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+}
+
+.project h3 {
+    color: #45c4e4;
+    margin-bottom: 10px;
+}
+
+.project a {
+    color: #45c4e4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
 #contact {
-    margin-top: 20px; /* Adds space above the contact section */
-    margin-bottom: 20px; /* Adds space below the contact section */
+    padding: 20px;
+    text-align: center;
+}
+
+#contact a {
+    color: #45c4e4;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-info {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .about-info img {
+        max-width: 100%;
+    }
+
+    .project {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
 }
