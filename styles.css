@@ -17,6 +17,7 @@ body {
 
 /* Header Styling */
 header {
+    background-color: #222;
     text-align: center;
     padding: 20px 0;
     border-bottom: 2px solid #45c4e4;
@@ -34,13 +35,8 @@ nav ul {
     justify-content: space-around;
     padding: 10px 0;
     margin: 0;
-    background-color: #222;
     border-top: 2px solid #45c4e4;
 }
-nav ul li{
-    border-bottom: 2px solid #45c4e4;
-}
-
 nav ul li a {
     text-decoration: none;
     color: #fff;
