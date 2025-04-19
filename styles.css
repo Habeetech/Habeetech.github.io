@@ -17,8 +17,6 @@ body {
 
 /* Header Styling */
 header {
-    background-color: #fff;
-    color: #333;
     text-align: center;
     padding: 20px 0;
     border-bottom: 2px solid #45c4e4;
@@ -36,16 +34,16 @@ nav ul {
     justify-content: space-around;
     padding: 10px 0;
     margin: 0;
-    background-color: #fff;
+    background-color: #222;
     border-top: 2px solid #45c4e4;
-    border-bottom: 2px solid #45c4e4;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: bold;
     padding: 5px 10px;
+    border-bottom: 2px solid #45c4e4;
     transition: color 0.3s ease;
 }
 
