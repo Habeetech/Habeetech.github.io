@@ -18,13 +18,13 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-</header>
-<main>
+    </header>
+    <main>
         <section id="about">
             <div class="container">
                 <h2 class="section-title">Meet Me</h2>
-                </div>
-                <div class="about-info">
+            </div>
+            <div class="about-info">
                 <img src="my-picture.jpg" alt="Profile picture of Oluwanisola Habeeb Olawale" />
                 <p>My name is Oluwanisola Habeeb Olawale. I'm an aspiring software developer currently seeking an
                     entry-level role or internship to gain confidence, skills, and practical experience. I have basic
@@ -38,29 +38,60 @@
             <div class="project">
                 <h3>Contact Management</h3>
                 <p>A basic contact management program written with C# language using a 2D array. Users can add, view, and manage contacts.</p>
-                <a href="https://github.com/Habeetech/Habeetech.github.io/tree/master/Contact-management-program">View Contact Management Project</a>
+                <a href="https://github.com/Habeetech/Habeetech.github.io/tree/master/Contact-management-program" target="_blank">View Source Code</a> |
+                <a href="#" onclick="return toggleVideo('contact-video', this)">View Preview</a>
+                <div id="contact-video" class="video-container" style="display: none;">
+                    <video controls>
+                        <source src="Contact_management.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
             <div class="project">
                 <h3>Automated Till Program</h3>
                 <p>An automated till program written with C# language that takes orders from users, processes them, and calculates totals.</p>
-                <a href="https://github.com/Habeetech/Habeetech.github.io/tree/master/Automated-till-program">View Automated Till Program</a>
+                <a href="https://github.com/Habeetech/Habeetech.github.io/tree/master/Automated-till-program" target="_blank">View Source Code</a> |
+                <a href="#" onclick="return toggleVideo('till-video', this)">View Preview</a>
+                <div id="till-video" class="video-container" style="display: none;">
+                    <video controls>
+                        <source src="Automated_Till.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
             </div>
         </section>
 
         <section id="contact">
             <h2 class="section-title">Contact</h2>
+
+            <!-- Feedback Form (Commented Out) -->
+            <!--
+            <form action="https://formspree.io/f/your-form-id" method="POST" class="feedback-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+                <button type="submit">Send Feedback</button>
+            </form>
+            -->
+
+            <!-- Contact Information -->
             <p>You can reach out to me through my email for general recommendations, collaborations etc.</p>
             <p>Email: <a href="mailto:o.h.olawaleofficial@gmail.com">o.h.olawaleofficial@gmail.com</a></p>
-            <p><a href="https://github.com/Habeetech" target="_blank">GitHub</a> | <a
-                    href="https://www.linkedin.com/in/habeeb-oluwanisola-178029359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                    target="_blank">LinkedIn</a></p>
+            <p>
+                <a href="https://github.com/Habeetech" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/habeeb-oluwanisola-178029359?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+            </p>
         </section>
-        </main>
+    </main>
     <footer>
         <p>&copy; <span id="current-year"></span> Habeetech. All rights reserved.</p>
-        <script>
-            document.getElementById('current-year').textContent = new Date().getFullYear();
-        </script>
+        <script src="script.js"></script>
     </footer>
 </body>
 

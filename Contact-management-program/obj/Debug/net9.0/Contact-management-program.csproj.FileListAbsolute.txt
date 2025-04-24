@@ -12,3 +12,4 @@ C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-program\obj\Debug\ne
 C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-program\obj\Debug\net9.0\Contact-management-program.pdb
 C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-program\obj\Debug\net9.0\Contact-management-program.genruntimeconfig.cache
 C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-program\obj\Debug\net9.0\ref\Contact-management-program.dll
+C:\Users\molas\Desktop\C-sharp-portfolio\Contact-management-program\obj\Debug\net9.0\Contact-management-program.sourcelink.json
