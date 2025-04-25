@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Automated-till-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6dd204b4b6348a099545bee8f731358c488c710")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4593a750a4453d0dcbbd66f3511203076dea364d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Automated-till-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Automated-till-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
